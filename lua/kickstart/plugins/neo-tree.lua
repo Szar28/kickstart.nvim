@@ -12,6 +12,11 @@ return {
   lazy = false,
   keys = {
     { '\\', ':Neotree reveal<CR>', desc = 'NeoTree reveal', silent = true },
+    -- Toggle Neo-tree
+    { '<leader>e', '<cmd>Neotree toggle<CR>', desc = 'Toggle Neo-tree' },
+
+    -- Reveal current file in Neo-tree
+    { '<leader>o', '<cmd>Neotree reveal<CR>', desc = 'Reveal file in Neo-tree' },
   },
   opts = {
     filesystem = {
